@@ -1,4 +1,4 @@
-// Searchbar.jsx
+
 import React, { useState } from 'react';
 import Loader from './Loader';
 import styles from './Searchbar.module.css'
@@ -9,7 +9,7 @@ const Searchbar = ({ onSearch }) => {
 
   const handleSearch = async () => {
     setLoading(true);
-    await onSearch(searchQuery); // Utilizează funcția onSearch pentru a trimite căutarea către componenta părinte
+    await onSearch(searchQuery); 
     setLoading(false);
   };
 
