@@ -3,7 +3,9 @@ import ImageGalleryItem from "./ImageGalleryItem";
 import Searchbar from "./Searchbar";
 
 export const App = () => {
+
   return (
+    
     <div
        style={{
         display: 'flex',

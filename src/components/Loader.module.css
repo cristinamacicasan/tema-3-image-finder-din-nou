@@ -6,7 +6,6 @@
 .spinner {
     border: 8px solid rgba(0, 0, 0, 0.1);
     border-top: 8px solid #007bff;
-    /* Schimbă culoarea la nevoie */
     border-radius: 50%;
     width: 80px;
     height: 80px;
